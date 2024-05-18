@@ -1,0 +1,19 @@
+go 1.22.2
+
+use (
+	./metadata
+	./metadata/cmd
+	./metadata/internal/controller
+	./metadata/internal/handler
+	./metadata/internal/repository
+	./metadata/internal/repository/memory
+	./metadata/pkg/model
+
+	./rating
+	./rating/cmd
+	./rating/internal/controller
+	./rating/internal/handler
+	./rating/internal/repository
+	./rating/internal/repository/memory
+	./rating/pkg/model
+)
