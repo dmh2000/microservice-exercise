@@ -9,6 +9,16 @@ use (
 	./metadata/internal/repository/memory
 	./metadata/pkg/model
 
+	./movie
+	./movie/cmd
+	./movie/gateway
+	./movie/gateway/metadata
+	./movie/gateway/metadata/http
+	./movie/gateway/rating
+	./movie/gateway/rating/http
+	./movie/internal/controller
+	./movie/pkg/model
+
 	./rating
 	./rating/cmd
 	./rating/internal/controller
