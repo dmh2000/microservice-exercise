@@ -1,7 +1,7 @@
 
 all: 
 	@go work sync
-	$(MAKE) -s -C metadatamake
+	$(MAKE) -s -C metadata
 	$(MAKE) -s -C rating
 	$(MAKE) -s -C movie	
 
