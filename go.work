@@ -11,12 +11,17 @@ use (
 
 	./movie
 	./movie/cmd
+
 	./movie/gateway
 	./movie/gateway/metadata
 	./movie/gateway/metadata/http
 	./movie/gateway/rating
 	./movie/gateway/rating/http
+	./movie/internal
 	./movie/internal/controller
+	./movie/internal/controller/movie
+	./movie/internal/handler
+	./movie/internal/handler/http
 	./movie/pkg/model
 
 	./rating
